@@ -7,6 +7,7 @@ This repo contains the following files:
 + stylesheet.css
 + app.js
 + jquery.min.js
++ underscore-min.js
 
 This project is to create a randomizer to place people within a selectable number of teams. 
 
