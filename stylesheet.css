@@ -1,0 +1,29 @@
+u {
+	font-weight: bold;
+}
+
+.js-numbers {
+	margin: 25px 0;
+}
+
+.button {
+	padding: 15px 25px;
+	background-color: #dddddd;
+	border-radius: 10px;
+	cursor: pointer;
+	text-align: center;
+	margin: 25px 1px;
+}
+
+.numButton {
+	display: inline;
+}
+
+.generate {
+	width: 100px;
+}
+
+.column {
+	display: table-cell;
+	padding: 0 25px;
+}
