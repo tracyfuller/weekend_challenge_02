@@ -1,27 +1,44 @@
+
+body {
+	font-family: "Source Code Pro", Verdana, sans-serif;
+}
+h1 {
+	margin:	5px 2px;
+	color: #A18072;
+}
 u {
-	font-weight: bold;
+	font-weight: 600;
 }
 .js-numbers {
-	margin: 25px 0;
+	margin: 10px 0;
+	font-weight: 900;
+	font-size: 24px;
 }
-.button {
+.numButton {
 	padding: 15px 25px;
 	background-color: #dddddd;
 	border-radius: 10px;
 	cursor: pointer;
 	text-align: center;
-	margin: 25px 1px;
-}
-.numButton {
-	display: inline;
+	margin: 1px;
+	display: inline-block;
+	color: #A18072;
 }
 .numButton-highlight {
 	background-color: #A18072;
+	color: white;
 }
 .generate {
+	padding: 10px;
+	background-color: #dddddd;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 10px 0;
 	width: 100px;
+	height: 100px;
 }
 .column {
 	display: table-cell;
 	padding: 0 25px;
+	font-weight: 300;
 }

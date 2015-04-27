@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	$(".generate").on("click", function(){
 		clearTeams();
-
+		$(this).fadeOut(125).fadeIn(125);
 		if (dividedTeams == 0) {
 			alert("Please pick the number of groups you wish to generate");
 		} else {
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			count = 0 
 			for (var j = 0; j < newArray.length; j++){
 
-				$(".list" + count).append("<p>" + newArray[j] + "</p>").hide().fadeIn("fast");
+				$(".list" + count).append("<p>" + newArray[j] + "</p>").hide().delay(j * 250).fadeIn("fast");
 				count++;
 				if (count >= dividedTeams){
 					count = 0;
